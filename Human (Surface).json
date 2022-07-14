@@ -1,0 +1,103 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12",
+				"targetSchema": "1.2"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Human (Surface)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"dex": 1,
+					"con": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"Grounder": true,
+					"low Common": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Those left on the surface resent being abandoned by those who fled to the sky cities. They tend to the evil alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Surface Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Grounder and Low Common."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"You have proficiency in one skill of your choice, and gain one feat of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surface Endurance",
+					"entries": [
+						"You are used to enduring the harsh conditions of the surface. You have advantage on Constitution saving throws."
+					]
+				}
+			]
+		}
+	]
+}

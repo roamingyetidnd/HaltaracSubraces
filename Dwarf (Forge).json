@@ -1,0 +1,150 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Dwarf (Forge)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"speed": 25,
+			"darkvision": 60,
+			"traitTags": [
+				"Tool Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"malantine": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"battleaxe|phb": true,
+					"handaxe|phb": true,
+					"light hammer|phb": true,
+					"warhammer|phb": true
+				}
+			],
+			"resist": [
+				"poison",
+				"fire"
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"smith's Tools|phb",
+							"brewer's Supplies|phb",
+							"mason's Tools|phb"
+						],
+						"count": 1
+					}
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Thanks to Kossuth's influence, Malantinians often act on impulse, and are consequently tend to be more chaotic in nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your speed is not reduced by wearing heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+					"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Combat Training",
+					"entries": [
+						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}."
+					]
+				},
+				{
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item Smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the {@skill History} skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					],
+					"type": "entries"
+				},	
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Malantinian, and either High or Low Common."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kossuth's Touch",
+					"entries": [
+						"The spirit of Kossuth flows through you, granting you resistance to fire damage."
+					]
+				}
+			]
+		}
+	]
+}

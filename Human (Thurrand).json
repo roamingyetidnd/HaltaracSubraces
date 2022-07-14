@@ -1,0 +1,125 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12",
+				"targetSchema": "1.2"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Human (Thurrand)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"int": 1,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"thurrandic": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"identify|phb"
+						],
+						"3": [
+							"augury|phb"
+						],
+						"7": [
+							"divination|phb"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Thurrand is a land of foresight and long term thinking, which makes of the inhabitants tend towards lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Thurrandic Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Thurrandic, and either High or Low Common."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"You have proficiency in one skill of your choice, and gain one feat of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thurrandic Insight",
+					"entries": [
+						"Those who grow up in Thurrand know that insights that are gained from long and careful thought. At level 1 you can ritually cast {@spell Identify} once a day. At level 3 you can ritually cast {@spell Augury} once a day. At level 7 you can ritually cast {@spell Divination} once a day. Your spellcasting ability for these is {@ability Wisdom}."
+					]
+				}
+			]
+		}
+	]
+}

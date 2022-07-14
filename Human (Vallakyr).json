@@ -1,0 +1,125 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12",
+				"targetSchema": "1.2"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Human (Vallakyr)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"str": 1,
+					"con": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"Vallakyn": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"witch bolt|phb"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"The storms of Vallakyr necessitate a pragmatic people, as a result Vallakyns have no alignment tendencies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Vallakyn Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Vallakyn, and either High or Low Common."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"You have proficiency in one skill of your choice, and gain one feat of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning Anger",
+					"entries": [
+						"When in a hostile situation, Vallakyns can lose control of their temper, due to the influence of Aula. In confrontational situations where you are being targeted by a specific creature, make a wisdom saving throw (DC12). On a failed save you cast {@spell Witch Bolt} at first level at the target of your anger. This counts as a suprise round for initiative."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunderous Laughter",
+					"entries": [
+						"After a confrontation Vallakyns are quick to make friends. You have advantage on {@skill Persuasion} checks involving those you have previously been in combat with that day."
+					]
+				}
+			]
+		}
+	]
+}

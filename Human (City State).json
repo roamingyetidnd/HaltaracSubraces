@@ -1,0 +1,104 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Human (City States)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"wis": 1,
+					"cha": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"low common": true,
+					"high common": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"insight": true,
+					"any": 1
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Those who grow up in the City States tend towards neutrality in all things."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"City State Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write High and Low Common."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"You have proficiency in one skill of your choice, and gain one feat of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "City State Intrigue",
+					"entries": [
+						"Brought up in the political and diplomatic environs of your City State, you are a natural at knowing when someone is being deceptive and knowing how to decieve. You have proficiency in the {@skill Insight} and {@skill Deception} skills."
+					]
+				}
+			]
+		}
+	]
+}

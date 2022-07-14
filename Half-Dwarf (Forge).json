@@ -1,0 +1,128 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Half-Dwarf (Forge)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"con": 2,
+					"str": 1,
+					"cha": 1
+				}
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"malantinian": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": "any",
+					"count": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"smith's Tools|phb",
+							"brewer's Supplies|phb",
+							"mason's Tools|phb"
+						],
+						"count": 1
+					}
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-dwarves mature at the same rate as humans, but they're considered young until they reach the age of 30. On average, they live about 150 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Thanks to Kossuth's influence, Malantinians often act on impulse, and are consequently tend to be more chaotic in nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dwarves stand between 4 and a half and 6 feet tall and average about 180 pounds. Your size is Medium."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your speed is not reduced by wearing heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your dwarven blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tool Proficiency",
+					"entries": [
+						"You gain proficiency with the artisan's tools of your choice: {@item Smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skill Proficiency",
+					"entries": [
+						"You gain proficiency with one skill of your choice."
+					]
+				},	
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Malantinian, and either High or Low Common."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kossuth's Touch",
+					"entries": [
+						"The spirit of Kossuth flows through you, granting you resistance to fire damage."
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,109 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12",
+				"targetSchema": "1.2"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Human (Goldrise)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"int": 1,
+					"cha": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"languageProficiencies": [
+				{
+					"goldriser": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Humans have no tendency towards any alignment, however growing up in the mercantile society of Goldrise means more Goldrisers are lawful than chaotic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Goldriser Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Goldriser, and either High or Low Common."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Human Adaptability",
+					"entries": [
+						"You have proficiency in one skill of your choice, and gain one feat of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Goldriser Intuition",
+					"entries": [
+						"Growing up in Goldrise, where everyone is trying to get the upper hand in deals, has made it easier for you to notice when something isn't quite right. You have advantage on Wisdom saving throws."
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,131 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Elf (Earth)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"speed": 35,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"low common": true,
+					"high common": true,
+					"any": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"longbow|phb": true,
+					"shortbow|phb": true,
+					"longsword|phb": true,
+					"shortsword|phb": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Alignment Info."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"name": "Elf Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+					"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is `trance'.) While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write language, High and Low Common."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base movement speed is increased to 35."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Well Travelled",
+					"entries": [
+						"Growing up in Nivenac means you have done a lot of travelling whilst growing up. You have proficiency in land and air vehicles."
+					]
+				}
+			]
+		}
+	]
+}

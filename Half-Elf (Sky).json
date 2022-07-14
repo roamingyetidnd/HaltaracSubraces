@@ -1,0 +1,113 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Half-Elf (Sky)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 1
+					} 
+				}
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"low common": true,
+					"high common": true,
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": "any",
+					"count": 2
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Alignment info."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+					"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Skill Versatility",
+					"entries": [
+						"You have proficiency in two skills of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write high and low common, as well as one other language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "City State Intrigue",
+					"entries": [
+						"Brought up in the political and diplomatic environs of your City State, you are a natural at knowing when someone is being deceptive and knowing how to decieve. You have proficiency in the {@skill Insight} and {@skill Deception} skills."
+					]
+				}
+			]
+		}
+	]
+}

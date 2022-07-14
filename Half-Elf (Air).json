@@ -1,0 +1,134 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "HaltaracSubraces",
+				"abbreviation": "HSR",
+				"full": "Haltarac Subraces",
+				"authors": [
+					"Roaming Yeti"
+				],
+				"version": "2022-07-12"
+			}
+		]
+	},
+	"race": [
+		{
+			"name": "Half-Elf (Air)",
+			"source": "HaltaracSubraces",
+			"ability": [
+				{
+					"cha": 2,
+					"str": 1,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"thurrandic": true,
+					"choose": {
+						"from": [
+							"high Common",
+							"low Common"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": "any",
+					"count": 2
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"identify|phb"
+						],
+						"3": [
+							"augury|phb"
+						],
+						"7": [
+							"divination|phb"
+						]
+					},
+					"ability": "wis"
+				}
+			],
+			"size": [
+				"M"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Thurrand is a land of foresight and long term thinking, which makes of the inhabitants tend towards lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+					"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+					]
+				},
+				{	
+					"type": "entries",
+					"name": "Skill Versatility",
+					"entries": [
+						"You have proficiency in two skills of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write Thurrandic, and either High or Low Common."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thurrandic Insight",
+					"entries": [
+						"Those who grow up in Thurrand know that insights that are gained from long and careful thought. At level 1 you can ritually cast {@spell Identify} once a day. At level 3 you can ritually cast {@spell Augury} once a day. At level 7 you can ritually cast {@spell Divination} once a day. Your spellcasting ability for these is {@ability Wisdom}."
+					]
+				}
+			]
+		}
+	]
+}
